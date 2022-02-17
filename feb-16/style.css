@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* .test{
+    width: 150vw;
+    height: 150vh;
+    background-color: red;
+} */
+
+/* vw -- > viewport width */
+
+
+.profile_pic{
+    margin-left: 35vw;
+    margin-top: 30px;
+    border-radius:50%;
+}
+.name{
+    text-align: center;
+    margin-top: 10px;
+}
+.description{
+    text-align: center;
+}
+.table_{
+    margin-left: 35vw;
+    margin-top: 100px;
+}
+td,th{
+    padding: 10px;
+    
+}
+
+.utility{
+    width: 300px;
+    background-color: gray;
+    margin-left: 40%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#accept{
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#reject{
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+

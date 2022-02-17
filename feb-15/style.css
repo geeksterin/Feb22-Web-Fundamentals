@@ -1,0 +1,25 @@
+/* img{
+    width: 100px;
+    height: 150px;
+} */
+
+/* #img_{
+    width: 100px;
+    height: 100px;
+} */
+
+/* img{
+    width: 100px;
+    height: 100px;
+} */
+
+.one{
+    width: 100px;
+    height: 100px;
+}
+
+#unique{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+}
