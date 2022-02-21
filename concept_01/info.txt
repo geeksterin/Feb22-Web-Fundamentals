@@ -1,0 +1,10 @@
+
+
+HTML: Hyper Text Markup Language
+Tags and Attributes?
+
+marks the start of an HTML document
+Attributes: extra piece of information.
+inside the Tags
+
+inline and block elements :

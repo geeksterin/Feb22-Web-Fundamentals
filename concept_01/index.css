@@ -1,0 +1,13 @@
+h1 {
+    text-align: center; 
+    color: blue;
+}
+#imgDiv {
+width: 500px; height: 500px; background-color: #666;
+}
+.imgCenter {
+   text-align: center;
+}
+.image {
+   width: 500px;
+}
