@@ -1,0 +1,31 @@
+semantic elements
+describe the meaning 
+tell their work/purpose 
+to browser and developer
+
+non semantic elements: div, span
+
+semantic elements: header, footer, section 
+
+1) header:
+introduction to any content
+written at the start
+heading, logo and author info
+
+2) Nav
+defines the set of navigation links
+
+3) section
+defines a SECTION of a particular document. They are related to one another.
+
+4) article
+independent, self contained content. If written alone, it should make sense.
+
+5) aside
+side bar
+tells the content APART from what is mentioned.
+
+6) footer
+last part of tha page is footer
+
+.htm
