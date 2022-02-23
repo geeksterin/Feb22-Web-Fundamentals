@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="">
+    <style>
+        #para {
+            color: red;
+        }
+
+        .someClass {
+            color: palevioletred;
+        }
+/* 
+        a {
+            background-color: yellow;
+        } */
+
+        /* h1, h2 {
+            color: red;
+        } */
+        /* * {
+            background-color: blue;
+        } */
+
+        /* div + div {
+            color: peru;
+        } */
+        div>h1 {
+            background-color: pink;
+        }
+        div p {
+            background-color: brown;
+        }
+
+        a:link {
+            color: pink;
+        }
+        a:visited {
+            color: aquamarine;
+        }
+        a:hover{
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- ID selector -->
+    <p id="para">This is para</p>
+    <p id="1">This is para</p>
+    <p id="para1">This is para</p>
+    <!-- class selectors -->
+    <p class="someClass">class selector</p>
+    <p class="someClass">class selector</p>
+    <p class="someClass">class selector</p>
+    <!-- type selector -->
+    <a href="">something</a>
+    <a href="">something1</a>
+    <a href="">something1</a>
+    <a href="">something3</a>
+    <!-- group selector -->
+    <!-- <h1>This is a h1</h1>
+    <h2>This is an h2</h2> -->
+
+    <!-- Start of general sibling selector -->
+    <!-- 
+    <div>
+        <p>
+            This is a para inside a div
+        </p>
+        <h1>This is above c</h1>
+        <div></div>
+        <h1>This is inside fic</h1>
+        <h1>This is inside fic</h1>
+        <h1>This is inside fic</h1>
+        <h1>This is inside fic</h1>
+        <p>This is a para after dic</p>
+        <h1>This is inside fic</h1>
+        <h1>This is inside fic</h1>
+
+    </div>
+
+    <div>
+        <p>This is another p</p>
+        <h1>This is alsp</h1>
+    </div> -->
+
+    <!-- End of general sibling selector -->
+    <!-- Start of Adjacent sibling selector -->
+    <!-- <div>
+        <h1>This is a sibling 2</h1>
+        <h1>This is a sibling 1</h1>
+        <h1>This is a sibling 2</h1>
+        <h1>This is a sibling 2</h1>
+        <div>
+            <h1>This is a cjhilds</h1>
+        </div> 
+        <div>
+            <h1>This is a cjhilds</h1>
+            <div>
+
+            </div>
+        </div>
+        <h1>This is also a sibling but not adjacent</h1>
+        
+    </div> -->
+    <!-- End of Adjacent sibling selector -->
+
+    <!-- Start of Child selector -->
+    <div id="main">
+        <p>This is for child selector</p>
+        <h1>This is for child selector</h1>
+        <span>
+            <p>This is for child selector 1</p>
+            <h1>This is for child selector</h1>
+        </span>
+    </div>
+    <!-- End of Child selector -->
+
+    <!-- Psuedo class -->
+
+    <a href="https://www.google.com">link to google</a>
+
+
+</body>
+
+</html>

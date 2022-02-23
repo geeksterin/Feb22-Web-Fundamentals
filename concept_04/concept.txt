@@ -1,0 +1,59 @@
+Css Selectors:
+
+1. id Selectors
+basically used for a particular element having a particular ID
+<p id='para'>something</p>
+#para {
+    color: red;
+}
+2. class Selectors
+Element has a particular class!
+<p class='para'>something</p>
+.para {
+    color: red;
+}
+3. Type Selectors
+a {
+    color: red
+}
+
+4. group Selectors
+
+usecase: all my headings should be of red colour
+
+h1, h2 {
+    color: red
+}
+
+combinators:
+What are combinators: They tell the relationship between 2 elements
+
+1. General Sibling combinators (~)
+General sibling combinator: div ~ p 
+selects/styles all the siblings of the first element which are of type second element
+
+2. Adjacent Sibling combinators (+)
+when second element is immediately next to the first element and is also a sibling.
+Example: h1 + h1
+
+3. child combinators (>)
+example: div > h1
+first element is the parent, second element is the child
+all the children of type second element.
+
+4. Descendent combinators( )
+applied to all the Descendent
+
+------------------------------------------------------------------------------------------
+psuedo class
+
+starts with ':'
+
+a:link
+a:visited
+a:active
+a:hover
+
+hover always has to be after visited and link.
+
+Assignment proper question:
