@@ -1,0 +1,50 @@
+Units in css
+width: 400px; height: 300px;
+Absolute and Relative:
+Absolute units and relative units
+Absolute: complete fixed value
+Relative: compare
+
+examples of Absolute units: 
+pixels (px) cm in mm
+1 px = 0.75/72 inch (just for your information)
+width and height 20cm;
+
+Relative units: 
+em, vw, vh, rem
+
+em: Relative to the current font size of the PARENT element
+font-size = 20px
+width = 2em => 2 times 20px = 40px
+
+rem: Depends on the font sixze of the ROOT element
+By default the root element (HTML) has a font size of 16px
+
+Default font sizes for root element for different browsers!
+
+16px = 1rem
+width= 2rem;
+2rem = 32px
+
+vh and vw = viewport - height and viewport - width
+vw: Relative to 1% of the width of the viewport
+v = 50cm
+v 100
+width: 20vw 
+---------------------------------------------------------------
+
+Positions in css
+position: Determine position of any element on the screen
+
+top, bottom, left and right
+
+position:
+static, By default all the html elements have static position
+relative: Relative to its ORIGINAL position
+Absolute: Relative to its parent's Positioned. For this, parent should be relatively Positioned
+fixed: Fixed 
+sticky
+
+
+Bring the text on an image using Positions
+Replicate of wiki page of ms teams

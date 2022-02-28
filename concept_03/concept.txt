@@ -5,7 +5,7 @@ to browser and developer
 
 non semantic elements: div, span
 
-semantic elements: header, footer, section 
+semantic elements: header, footer, section
 
 1) header:
 introduction to any content
@@ -17,6 +17,8 @@ defines the set of navigation links
 
 3) section
 defines a SECTION of a particular document. They are related to one another.
+<section />
+<section />
 
 4) article
 independent, self contained content. If written alone, it should make sense.
@@ -29,3 +31,5 @@ tells the content APART from what is mentioned.
 last part of tha page is footer
 
 .htm
+
+Question: Create a travel website

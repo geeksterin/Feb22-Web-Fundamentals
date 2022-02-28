@@ -34,7 +34,7 @@ selects/styles all the siblings of the first element which are of type second el
 
 2. Adjacent Sibling combinators (+)
 when second element is immediately next to the first element and is also a sibling.
-Example: h1 + h1
+Example: h1 + h1 not on the first element.
 
 3. child combinators (>)
 example: div > h1
@@ -57,3 +57,7 @@ a:hover
 hover always has to be after visited and link.
 
 Assignment proper question:
+
+In the menu bar/ nav bar apply all the 4 combinators.
+
+Internal, external and inline
