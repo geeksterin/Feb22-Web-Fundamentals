@@ -1,0 +1,38 @@
+/* div p -> will select every p that is present inside div (descendent selector)*/
+/* .container p{
+    color: red;
+} */
+
+
+/* div > p{
+    color: red;
+} */
+
+/* div > ul{
+    color: red;
+} */
+/* 
+.container2 > ul{
+    color: red;
+} */
+
+
+div ~ p{
+    color:  red;
+}
+.para{
+    color: green;
+}
+
+.test ~ p{
+    color: gray;
+}
+
+
+#test_id{
+    color: green;
+}
+.test_class{
+    color: blue;
+}
+
