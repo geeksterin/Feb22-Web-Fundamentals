@@ -75,7 +75,7 @@
 }
 .game{
     display: grid;
-    grid-template-columns: repeat(3,0.5fr);
+    grid-template-columns: repeat(3,1fr);
     grid-gap: 6px;
     background-color: #555555;
 }
