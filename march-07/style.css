@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr) 300px;
+    grid-template-rows: 50px 100px 200px 50px;
+    gap: 12px;    
+}
+
+.navbar{
+    background-color: red;
+    grid-column: 1/-1;
+}
+.div1{
+    background-color: aliceblue;
+}
+.div2{
+    background-color: aqua;
+}
+.div3{
+    background-color: aquamarine;
+}
+.div4{
+    background-color: grey;
+    grid-row: 2/4;
+    grid-column: 4/5;
+}
+.div5{
+    background-color: blue;
+    grid-column: 1/4;
+}
+.footer{
+    background-color:green;
+    grid-column: 1/-1;
+}
+
