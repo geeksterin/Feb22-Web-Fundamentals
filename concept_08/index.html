@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent {}
+
+        .child {}
+
+        .inline {
+            display: inline;
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            margin: 10px;
+        }
+
+        /* .abc {
+            display: block;
+        }
+        .inline-block { */
+            /* display: none; */
+            /* visibility:hidden;
+            height: 100px;
+            width: 100px;
+            background-color: aquamarine;
+        } */
+
+        .container{
+            display: flex;
+            height: 500px;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+            /* align-content: flex-end; */
+        }
+        .item{
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <span class="abc">This is span</span>
+    <span class="abc">This is span3</span> -->
+    <!-- <span>This is span3</span>
+    <span>This is span3</span> -->
+    <!-- <div class="inline">
+        <span>This is span3</span>
+        <span>This is span3</span>
+    </div> -->
+    <!-- <div class="inline-block"> -->
+        <!-- <div class="inline-block">This is div3</div>
+        <div class="inline-block">This is div3</div>
+        <div class="inline-block">This is div3</div>
+        <div class="inline-block">This is div3</div>
+        <div class="inline-block">This is div3</div>
+        <div>This is div3</div> -->
+
+    <!-- </div> -->
+
+    <div class="container">
+        <div class="item" style="order: 1;">1</div>
+        <div class="item" style="order: 3;">2</div>
+        <div class="item" style="order: 4; align-self: flex-end; flex-basis: 20px;">3</div>
+        <div class="item" style="order: 2;">4</div>   
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+Display is CSS:
+display:
+inline,
+block,
+inline-block
+flex
+grid
+
+-----------------
+
+Tells the behaviour of the element
+
+inline display:
+Height and Width attribute does not work when the display is inline.
+it automatically takes the Height and width accordin gto the content present
+
+Block display:
+By default, block elements cover the whole width of the screen.
+
+inline-block
+it behaves like an inline element but one can add height and width to it.
+
+display: flex:
+Container and items
+flex          flex
+Parent element and child element
+
+Parent container:
+- display: flex
+- flex-direction
+- flex-wrap
+- justify-content align the flex items in vertical axis
+
+Child/items container:
+order
+alignSelf =>  Overriding
+overrides alignItems
+flex-basis: Initial length of the flex item

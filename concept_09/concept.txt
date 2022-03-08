@@ -1,0 +1,40 @@
+Text Effects:
+white space: no-wrap or normal
+
+overflow: hidden, visible
+
+Text overflow:
+you have to mention overflow: hidden and white space as no-wrap. How do you want to display your over flown text
+
+word-wrap: break-word
+
+writing-mode
+
+
+2-D Transforms
+
+
+transform attribue
+It changes the appearance or it transforms the elements. 
+- translate ->  It moves from x-axis and y-axix
+- rotate ->  it will rotate the element
+- scale -> 
+- scaleX -> scale towards x axis (increase or decrease the width)
+- scaleY -> scale towards y axis (increase or decrease the height)
+- skew
+- skewX
+- skewY
+
+transitions-> two things:
+1) which attribute you want to change
+2) Duration: how long you want the transition to happen
+
+
+Media query:
+
+@media screen condition 
+(min-width: 480px)
+{
+    // properties will be execited if the screen size is less than 480px
+}
+
