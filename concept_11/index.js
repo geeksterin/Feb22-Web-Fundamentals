@@ -28,3 +28,4 @@ console.log(result2)
 // create a subtraction and multiply function
 // subtract 5 and 2
 // multiple 2 and 5
+

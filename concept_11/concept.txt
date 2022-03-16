@@ -37,4 +37,6 @@ returns something
 // display failed
 
 
-Assignment: 
+Assignment: cfreate 4 functions add, subtract, multiple and divide.
+then create a function which takes a and b parameters and return value of (a+b)^2
+using the above mentioned functions
