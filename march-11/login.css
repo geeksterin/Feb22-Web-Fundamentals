@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #eaeef7;
+    font-family: montserrat;
+}
+a{
+    text-decoration: none;
+    text-align: center;
+}
+.container{
+    width: 70vw;
+    height: 80vh;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background-color:#fdfdfd;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.container-top{
+    width: 100%;
+    height: 20%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-text{
+    color: #323754;
+    font-family:'montserrat';
+    font-size: 1.6rem;
+    font-weight: 800;
+}
+
+.container-bottom{
+    width: 100%;
+    height: 80%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+.bottom-right{
+    height: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    border-left: 1px dotted #444444;
+}
+
+.btn{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    height: 33px;
+    background-color: red;
+    width: 250px;
+    padding-left: 40px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    cursor: pointer;
+    border: 1px solid #444444;
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+#btn1{
+    background-color:#3a5793 ;
+}
+
+#btn2{
+    background-color: #444444;
+}
+
+#btn3{
+    background-color: #fdfdfd;
+}
+
+#white-color-text1,#white-color-text2{
+    color: white;
+    font-size: 0.7rem;
+}
+
+#blackish-color-text{
+    color: #444444;
+    font-size: 0.7rem;
+}
+
+.bottom-left{
+    height: 100%;
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-top{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+}
+
+
+
+.input-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 50PX;
+    gap: 10px;
+}
+
+.checkbox-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+    padding-left: 50PX;
+    gap: 10px;
+}
+
+.input-fields{
+    width: 280px;
+    height: 30px;
+    padding: 10px;
+    border: 1px solid #444444;
+}
+.checkbox-type{
+    font-size: 0.7rem;
+}
+
+.forget-password{
+    text-decoration:none ;
+    color: #32a8f8;
+    font-family:monospace;
+    font-weight: 800;
+    font-size: 0.7rem;
+    margin-left: 61px;
+}
+
+.left-bottom{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.login-btn{
+    border-radius: 10px;
+    background-color: #32a8f8;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.signup-ctn{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 41px;
+    gap: 10px;
+}
+
+.signup-btn{
+    text-decoration: none;
+    color: #32a8f8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:0.7rem;
+}
+
+.login-btn-ctn{
+    width: 280px;
+    background-color: #32a8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+}
+
+@media screen and ( max-width:880px) {
+    .login-text{
+        font-size: 1rem;
+    }
+    .container{
+        width: 100vw;
+        height: 100vh;
+        
+    }
+    .container-bottom{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .input-fields{
+        width: 250px;
+    }
+    .bottom-right{
+        border-left: none;
+        border-top: 1px solid #444444;
+    }
+    .login-btn-ctn{
+        margin-left: 30px;
+    }
+}

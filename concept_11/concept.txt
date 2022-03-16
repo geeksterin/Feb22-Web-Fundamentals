@@ -1,0 +1,40 @@
+function
+
+// make a calculator:
+
+- input two numbers
+- input an operator
+- perform the operation
+
+- + (numbers add)
+- - (numbers subtract)
+- * (multiply numbers)
+
+function: Code block which performs a certain task. Call a function or invoke a function
+performs its action
+
+sum -> add two numbers -> give you the result
+
+
+camel case or hyphen
+
+first name and last name
+
+in camel casing: first word's first alphabet is small
+let firstNameOfStudent
+let first_name_of_student
+
+
+Functions take ARGUMENTS
+
+returns something
+
+// function which stores the values of the form
+// function call to store the values in the database
+// return true or false: 
+
+// if it is true: display success
+// display failed
+
+
+Assignment: 

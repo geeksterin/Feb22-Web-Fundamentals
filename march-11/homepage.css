@@ -1,0 +1,251 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+/* body{
+    height: 300vh;
+} */
+.navbar{
+    width: 100vw;
+    height: 45px;
+    background-color: #323754;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-left{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    gap: 20px;
+    padding-left: 30px;
+}
+
+
+.logo{
+    width: 20px;
+    height: 20px;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+li{
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    color:#919191;
+    font-size: 0.8rem;
+}
+
+li a:active{
+    color: white;
+}
+.nav-right{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile-pic{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.icon-1{
+    width: 20px;
+    height: 20px;
+}
+
+.search-bar{
+    background-color: #282c43;
+    border: none;
+    padding: 5px;
+    width: 290px;
+}
+
+/* .search-bar:focus{
+    
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+} */
+.search-bar:hover{
+    background-color: green;
+}
+.search-bar:focus{
+    outline: none;
+    background-color: red;
+}
+
+/* li a:hover{
+    color: green;
+} */
+
+.placeholder{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 60px;
+}
+.checkbox{
+    position: absolute;
+    left: 45px;
+    top: 5px;
+    width: 30px;
+    height:30px;
+    opacity: 0;
+}
+.hamburgur{
+    position: absolute;
+    left:45px;
+    top: 5px;
+    width: 30px;
+    height:30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    display: none;
+    cursor: pointer;
+}
+.line{
+    width: 100%;
+    height: 3px;
+    background-color: white;
+}
+@media screen and (max-width:480px) {
+   .placeholder{
+       position: absolute;
+       top: 0px;
+       flex-direction: column;
+       width: 100vw;
+       background-color: #282c43;
+       justify-content: flex-start;
+       align-items: flex-start;
+       padding: 20px;
+   }
+   ul{
+       flex-direction: column;
+       align-items: flex-start;
+   }
+   .nav-left{
+       flex-direction: column;
+       align-items: flex-start;
+       padding-top: 50px;
+       display: none;
+   }
+   .nav-right{
+       flex-direction: column-reverse;
+       align-items: flex-start;
+       padding-left: 25px;
+        display: none;
+   }
+   .hamburgur{
+       display: flex;
+   }
+   .checkbox:checked ~ .nav-left{
+       display: flex;
+   }
+   ul li a:hover{
+       color: green;
+   }
+}
+
+.container{
+    display: grid;
+    grid-template-rows: 600px 100px;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    padding: 10px;
+   
+}
+
+.div1{
+    width: 80vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.div2{
+    width: 20vw;
+    height: 80vh;
+    background-color: royalblue;
+}
+
+.div3{
+    background-color: black;
+    grid-column: 1/-1;
+    height: 20vh;
+}
+.card{
+    width: 180px;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+.card-top{
+    height: 40%;
+    width: 100%;
+    overflow-y: hidden;
+}
+.card-middle{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-bottom{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-image{
+    width: 100%;
+    height: 100%;
+}
+
+.card-heading{
+    font-size: 1rem;
+    color: #323754;
+    margin-top: 50px;
+
+}
+.bottom-btn{
+    width: 100px;
+    height: 30px;
+    background-color: #98ba00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

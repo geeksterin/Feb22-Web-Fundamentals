@@ -1,0 +1,37 @@
+Variables in JS:
+
+3 kinds of variables:
+- const: value cannot be changed. Value of pi
+const pi = 3.14
+- var: global
+- let: block scoped
+
+
+function abc() {
+
+let x = 100;
+function name() {
+    print(x)
+}
+
+}
+
+print(x)
+// not be printed
+
+
+
+print(x);
+print(y);
+are used to "declare" a variable
+
+const <name of the variable>
+
+const num;
+
+Data type:
+- Number 
+- String: characters (name, address, subject)
+- Boolean
+- undefined
+- null

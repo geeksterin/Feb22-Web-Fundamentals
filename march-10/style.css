@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* 
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+
+.child{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+} */
+
+/* 
+@media  screen and (max-width:600px) {
+    /* body{
+        background-color: green;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .child{
+        background-color: azure;
+        height: 10px;
+        width: 10px;
+    } 
+} */
+
+
+/* responsive font size , resonsive layout , breakpoints */
+
+
+.navbar{
+    width: 100vw;
+    height: 35px;
+    padding: 5px;
+    background-color: #bf1363;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.nav-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+ul{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+
+li{
+    list-style: none;
+}
+.placeholder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.hamburgur{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    display: none;
+}
+.line{
+    width: 30px;
+    height: 2px;
+    background-color:black;
+}
+@media screen and (max-width:600px) {
+    .navbar{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .nav-left{
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    ul{
+        flex-direction: column;
+    }
+    .placeholder{
+        margin-top: 50px;
+        
+    }
+    .hamburgur{
+        display: flex;
+    }
+}
+/*  after , before , hover , active , n-child  */
