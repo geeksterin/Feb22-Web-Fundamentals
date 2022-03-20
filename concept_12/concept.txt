@@ -1,0 +1,62 @@
+Arrays and objects:
+
+Array: Syntax: 
+[] represent an Array
+Array is a collection of SAME datatype
+
+
+let numbers = [2,3,4,1,5,3,2,4,6,5]
+let numbers = [];
+
+
+Array's first number starts with 0. First index of an array starts with 0.
+console.log(numbers[0]);
+
+Objects:
+
+syntax : 
+{
+
+}
+
+key: value
+store multiple data types
+
+
+conditional statements:
+
+
+if else
+
+if (condition) {
+
+}
+else {
+
+}
+
+Question: Create an object of a student with keys: name, age, roll number, marks
+if the age of the student is below 18 console log below 18 
+other wise adult
+
+loops:
+to execute/ run the same code again and again but with different values
+
+for loop
+
+syntax:
+
+
+for (statement1 ; statement2 ; statement3) {
+
+}
+
+statement1: initialization
+statement2: condition
+statement3: increment/decrement
+
+// inserting 10 values in an array
+let arr
+for (let i = 0 ; i<=9; i++) {
+    arr[i] = i
+}
