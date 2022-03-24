@@ -11,6 +11,7 @@ body{
     height: 100vh;
     background-color: #eaeef7;
     font-family: montserrat;
+    height: 120vh;
 }
 a{
     text-decoration: none;
@@ -95,7 +96,15 @@ a{
 #btn3{
     background-color: #fdfdfd;
 }
-
+#btn3::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    position: relative;
+    top: 0;
+    bottom: 0;
+}
 #white-color-text1,#white-color-text2{
     color: white;
     font-size: 0.7rem;
@@ -208,7 +217,6 @@ a{
     align-items: center;
     height: 35px;
 }
-
 @media screen and ( max-width:880px) {
     .login-text{
         font-size: 1rem;
@@ -233,3 +241,4 @@ a{
         margin-left: 30px;
     }
 }
+

@@ -129,43 +129,14 @@ li a:active{
     height: 3px;
     background-color: white;
 }
-@media screen and (max-width:480px) {
-   .placeholder{
-       position: absolute;
-       top: 0px;
-       flex-direction: column;
-       width: 100vw;
-       background-color: #282c43;
-       justify-content: flex-start;
-       align-items: flex-start;
-       padding: 20px;
-   }
-   ul{
-       flex-direction: column;
-       align-items: flex-start;
-   }
-   .nav-left{
-       flex-direction: column;
-       align-items: flex-start;
-       padding-top: 50px;
-       display: none;
-   }
-   .nav-right{
-       flex-direction: column-reverse;
-       align-items: flex-start;
-       padding-left: 25px;
-        display: none;
-   }
-   .hamburgur{
-       display: flex;
-   }
-   .checkbox:checked ~ .nav-left{
-       display: flex;
-   }
-   ul li a:hover{
-       color: green;
-   }
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    display: none;
 }
+
 
 .container{
     display: grid;
@@ -205,6 +176,7 @@ li a:active{
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     border-radius: 10px;
     background-color: aliceblue;
+    border: 1px solid #444444;
 }
 .card-top{
     height: 40%;
@@ -248,4 +220,47 @@ li a:active{
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+
+
+@media screen and (max-width:480px) {
+    .wrapper{
+        display: flex;
+    }
+   .placeholder{
+       position: absolute;
+       top: 0px;
+       flex-direction: column;
+       width: 100vw;
+       background-color: #282c43;
+       justify-content: flex-start;
+       align-items: flex-start;
+       padding: 20px;
+   }
+   ul{
+       flex-direction: column;
+       align-items: flex-start;
+   }
+   .nav-left{
+       flex-direction: column;
+       align-items: flex-start;
+       padding-top: 50px;
+       display: none;
+   }
+   .nav-right{
+       flex-direction: column-reverse;
+       align-items: flex-start;
+       padding-left: 25px;
+        display: none;
+   }
+   .hamburgur{
+       display: flex;
+   }
+   .checkbox:checked ~ .nav-left{
+       display: flex;
+   }
+   ul li a:hover{
+       color: green;
+   }
 }
